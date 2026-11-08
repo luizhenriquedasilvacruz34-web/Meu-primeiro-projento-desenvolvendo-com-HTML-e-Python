@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lava Rapido LZ</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Lava Rapido LZ</h1>
+    <h2>Bem vindo!</h2>
+    <form method="POST">
+        <label>Seu nome:</label>
+        <input type="text" name="nome" required>
+        <br><br>
+        <label>Modelo do veículo:</label>
+        <input type="text" name="veiculo" required>
+        <br><br>
+        <label>Tipo de lavagem:</label>
+        <select name="lavagem" required>
+        opção    <option value="Bronze">Bronze</option>
+            <option value="Prata">Prata</option>
+            <option value="Ouro">Ouro</option>
+            <option value="Diamante">Diamante</option>
+        </select>
+        <br><br>
+        <button type="submit">Solicitar Lavagem</button>
+    </form>
+</body>
+</html>

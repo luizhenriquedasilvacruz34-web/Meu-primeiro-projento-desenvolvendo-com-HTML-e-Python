@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+h1 {
+    color: #39FF14;
+    text-align: center;
+}
+button {
+    background-color:#39FF14;
+    color: black;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+input {
+    padding: 12px;
+    border-radius:8px;
+    border: 2px solid #39FF14;
+    outline: none; 
+}
+input:focus {
+    border: 2px solid white;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #39FF14;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
